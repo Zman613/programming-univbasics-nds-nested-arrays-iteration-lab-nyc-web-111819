@@ -21,7 +21,7 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   row_index = 0
   new_array_int = []
-  while row_index < src.count do 
+  while row_index < src.count do
     src[row_index][0] < src[row_index][1] ? new_array_int << src[row_index][1] :
     new_array_int << src[row_index][0]
     row_index += 1
